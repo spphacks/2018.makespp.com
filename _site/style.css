@@ -69,6 +69,14 @@ header {
   color: #ff0c5b;
 }
 
+.map-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+
 .enlight {
   font-size: 5em;
   font-weight: 900;
@@ -88,6 +96,13 @@ header {
   }
   .subtitle {
     display: none;
+  }
+  .map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 }
 
