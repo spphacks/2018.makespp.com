@@ -25,7 +25,7 @@ header {
 }
 
 #space {
-  height: 40vh;
+  height: 75vh;
 }
 
 #main {
@@ -37,6 +37,7 @@ header {
   font-weight: 400;
   display: block;
   width: 100vw;
+  text-align: center;
 }
 
 .landing {
@@ -47,6 +48,7 @@ header {
 .landing .subtitle {
   overflow: hidden;
   white-space: nowrap;
+  font-size: 2.5em;
 }
 
 .accent {
@@ -62,8 +64,21 @@ header {
   margin: 0;
 }
 
+.date {
+  padding-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+  .enlight {
+    font-size: 3em;
+  }
+  .subtitle {
+    display: none;
+  }
+}
+
 .buttons {
-  padding-top: 10px;
+  padding-top: 40px;
 }
 .buttons .button {
   padding: 10px;
