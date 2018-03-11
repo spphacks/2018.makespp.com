@@ -49,7 +49,7 @@ header {
   max-width: 100%;
   font-size: 2rem;
   padding: 2%;
-  color: white;
+  color: #333;
   font-family: Lato, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
     'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     'Arial', sans-serif;
@@ -69,14 +69,25 @@ header {
   font-weight: bold;
 }
 
+.container .special-bottom {
+  padding-bottom: 10px;
+  border-bottom: 5px solid #ff0c5b;
+  display: inline;
+}
+
 .container .description {
   font-size: 30px;
+}
+
+.schedule {
+  max-width: 20em;
+  margin: auto;
 }
 
 .container p {
   max-width: 40em;
   margin: 0 auto;
-  color: #f3f3f3;
+  color: #333;
 }
 
 .landing .subtitle {
@@ -86,7 +97,7 @@ header {
 }
 
 .accent {
-  color: #ff0c5b;
+  color: #ff0c5b !important;
 }
 
 .map-container {
@@ -173,15 +184,6 @@ header {
 
 .orange {
   background: linear-gradient(270deg, #ff5f6d, #ffc371);
-  background-size: 400% 400%;
-
-  -webkit-animation: GradientAnimation 23s ease infinite;
-  -moz-animation: GradientAnimation 23s ease infinite;
-  animation: GradientAnimation 23s ease infinite;
-}
-
-.black {
-  background: linear-gradient(to right, #000000, #434343);
   background-size: 400% 400%;
 
   -webkit-animation: GradientAnimation 23s ease infinite;
