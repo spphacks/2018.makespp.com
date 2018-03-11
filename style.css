@@ -69,6 +69,11 @@ header {
   font-weight: bold;
 }
 
+.sponsors {
+  max-width: 60%;
+  margin: auto;
+}
+
 .container .special-bottom {
   padding-bottom: 10px;
   border-bottom: 5px solid #ff0c5b;
