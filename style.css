@@ -25,7 +25,7 @@ header {
 }
 
 #space {
-  height: 90vh;
+  height: 100vh;
 }
 
 #main {
@@ -70,7 +70,7 @@ header {
 }
 
 .sponsors {
-  max-width: 60%;
+  max-width: 70%;
   margin: auto;
 }
 
