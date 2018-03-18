@@ -117,8 +117,6 @@ header {
 }
 
 .landing .subtitle {
-  overflow: hidden;
-  white-space: nowrap;
   font-size: 2.5em;
 }
 
@@ -155,9 +153,6 @@ header {
 @media (max-width: 800px) {
   .enlight {
     font-size: 3em;
-  }
-  .subtitle {
-    display: none;
   }
   .map-container iframe {
     position: absolute;
