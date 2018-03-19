@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900');
-@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
 
 a {
   text-decoration: none;
@@ -8,9 +7,9 @@ a {
 
 html,
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Arial',
-    sans-serif;
+  font-family: Avenir, Nunito Sans, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', 'Arial', sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,9 +18,9 @@ body {
 }
 
 header {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Arial',
-    sans-serif;
+  font-family: Avenir, Nunito Sans, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 #space {
@@ -31,9 +30,9 @@ header {
 #main {
   position: absolute;
   z-index: 100;
-  font-family: Lato, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
-    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    'Arial', sans-serif;
+  font-family: Avenir, Nunito Sans, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', 'Arial', sans-serif;
   font-weight: 400;
   display: block;
   width: 100vw;
@@ -72,9 +71,6 @@ header {
   font-size: 2rem;
   padding: 2%;
   color: #333;
-  font-family: Lato, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
-    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    'Arial', sans-serif;
 }
 
 .container .content {
@@ -117,7 +113,7 @@ header {
 }
 
 .landing .subtitle {
-  font-size: 2.5em;
+  font-size: 3.5em;
 }
 
 .accent {
