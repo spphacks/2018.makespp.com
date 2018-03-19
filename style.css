@@ -162,6 +162,10 @@ header {
     max-width: 100%;
     margin: auto;
   }
+
+  .landing .subtitle {
+    font-size: 2.2em;
+  }
 }
 
 .buttons {
