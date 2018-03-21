@@ -93,8 +93,9 @@ header {
 }
 
 .container .special-bottom {
-  border-bottom: 10px solid #ff0c5b;
+  background: #ffe8ef;
   display: inline;
+  padding: 7px;
 }
 
 .container .description {
