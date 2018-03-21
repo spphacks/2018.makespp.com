@@ -50,7 +50,7 @@ header {
 .arrow {
   position: absolute;
   bottom: 0;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   animation: MoveUpDown 1s linear infinite;
 }
 
