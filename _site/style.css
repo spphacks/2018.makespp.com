@@ -95,7 +95,7 @@ header {
 .big-sponsor {
   margin-left: auto;
   margin-right: auto;
-  max-width: 70%;
+  max-width: 7a0%;
 }
 
 .container .special-bottom {
@@ -184,7 +184,7 @@ header {
   border: 5px solid #f3f3f3;
   color: #f3f3f3 !important;
   border-radius: 5px;
-  margin-right: 5px;
+  margin-right: 0px;
   font-weight: bold;
   text-decoration: none !important;
 }
