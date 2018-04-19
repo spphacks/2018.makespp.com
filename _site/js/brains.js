@@ -12,7 +12,7 @@ xSpeed = 0.0005
 ySpeed = 0.001
 var winWidth, winHeight
 winWidth = window.innerWidth
-winHeight = window.innerHeight
+winHeight = window.innerHeight * 0.5
 
 init()
 animate()
