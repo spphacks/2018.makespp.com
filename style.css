@@ -27,6 +27,10 @@ header {
   height: 60vh;
 }
 
+.counter {
+  font-size: 12vw;
+}
+
 #main {
   position: absolute;
   z-index: 100;
@@ -188,10 +192,16 @@ header {
   .landing .subtitle {
     font-size: 2.2em;
   }
+
+  .button {
+    display: block;
+  }
 }
 
 .buttons {
   padding-top: 10px;
+  max-width: 50em;
+  margin: auto;
 }
 .buttons .button {
   padding: 10px;
