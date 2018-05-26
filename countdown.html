@@ -10,7 +10,7 @@ permalink: /countdown
 </h1>
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date('May 26, 2018 8:00:00').getTime()
+var countDownDate = new Date('May 26, 2018 17:30:00').getTime()
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -28,7 +28,7 @@ var x = setInterval(function() {
 
   // Display the result in the element with id="demo"
   document.getElementById('countdown').innerHTML =
-    days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's '
+     hours + 'h ' + minutes + 'm ' + seconds + 's '
 
   // If the count down is finished, write some text
   if (distance < 0) {
@@ -37,3 +37,5 @@ var x = setInterval(function() {
   }
 }, 1000)
 </script>
+
+<div class = "f2 black-70 fw2 ttu tracked tc"> Till submissions are due on <a class="underline red" href="https://makespp.devpost.com">Devpost</a></div><br><br>
